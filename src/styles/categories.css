@@ -1,0 +1,38 @@
+
+.tabledata{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.controls{
+    display: flex;
+}
+.controls div{
+    display: flex;
+    margin: 10px 10px;
+}
+.tblheader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.searchbar{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: absolute;
+    top: -22px;
+    left: 15%;
+    width: 60%;
+}
+
+.addbtn{
+    background-color: purple;
+    color: white;
+    height: 50px;
+
+}
+.product_imgs{
+    height: 40px;
+    width: 40px;
+    
+}

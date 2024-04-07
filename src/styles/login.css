@@ -1,0 +1,87 @@
+/* login.css */
+
+.form-container {
+    width: 480px; 
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+
+    margin: 0 auto; /* Centers the form horizontally */
+    /* text-align: left; Aligns the contents of the form to the left */
+    position: absolute;
+    padding: 10px 10px;
+    top: 5rem;
+    left: 20px;
+    /* box-shadow: white; */
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;  }
+.form-control{
+  width: 90%;
+  padding: 10px 10px;
+  border-radius: 0px;
+
+}
+.form-contents{
+  margin: 30px 0px;
+}
+.logo img{
+  height: 120px;
+  width: 150px;
+  margin: 20px 20px;
+}
+.logo{
+  text-align: center;
+}
+.forgot-password{
+  text-align: end;
+
+}
+.forgot-password button{
+  text-decoration: none;
+  color: blueviolet;
+  font-family: sans-serif;
+  background: none;
+  border : none;
+}
+  .d-grid{
+    margin-top: 70px;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    gap: 4;
+    /* justify-content: center; */
+    /* margin: auto; */
+  }
+  .btn-primary {
+    background-color: purple; /* Sets button color to purple */
+    border-color: purple; /* Sets border color to purple */
+    width: 80%;
+    margin: auto;
+  }
+
+.modal{
+  /* text-align: center; */
+}  
+.modal-dialog{
+  height: 500px;
+  width: 600px;
+}
+.modal-header{
+  text-align: center;
+}
+.backtologin{
+  text-decoration: none;
+  color: rgb(126, 123, 128);
+  font-family: sans-serif;
+  background: none;
+  border : none;
+  margin: auto;
+}
+.sidebar-main{
+  height: 200vh;
+  background-color: rgb(219, 219, 219);
+  color: black;
+}
+
+  
